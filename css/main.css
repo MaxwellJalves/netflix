@@ -1,0 +1,148 @@
+/*Declarando Variaveis no CSS*/
+:root{
+    --vermelho:#E50914;
+    --preto:#141414;
+    --branco:white;
+    --mascara:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.50)100%) ;
+}
+.botao-menu{
+    width: 80px;
+    height:30px;
+    background:linear-gradient(rgba(105, 0, 91, 0.712),rgba(105, 0, 91, 0.712)) ;  
+}
+body{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif, cursive;
+    color:white;
+    background: var(--preto);
+    background-color: linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.50)100%) ;
+    
+}
+.titulo-cx-filha{
+    font-size: 17px;
+    margin-left: 3%;
+}
+p,a,li,ol,ul{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif, cursive;
+    color:white;
+    font-style: normal;
+    font-stretch: normal;
+    font-size: .5cm;
+}
+.vload{
+        margin-left: 55%;
+        margin-right: 30%;
+}
+
+
+/*Zerando as margens e bordas da pagina e defindindo o tipo de borda*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box; /*bordar da caixa n_px_width*/
+}
+
+header .cabecalho{
+    
+    display:flex; /* joga os itens para a linha*/
+    flex-direction: row;
+    align-items:center;
+    justify-content: space-around;
+    height:60px;
+   
+}
+
+header .logo{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: left;
+    font-size: 26px;
+    margin: 10px;
+    color:var(--vermelho);
+    
+}
+header nav a {
+    display:inline-block;
+    flex-direction:center;
+    text-decoration: none;
+    margin-right:10px;
+    font-size:20px;
+ 
+}
+
+a:hover{
+    color: var(--vermelho);
+}
+
+
+
+.caixa-principal{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    background:url(../img/finallyHarry.jpg);
+    background-size: cover;
+    background-image: rgba(14, 13, 13, 0.5);
+    margin-bottom: 2%;
+}
+
+.caixa-filha{
+    margin-top: 5px;
+}
+
+.sipnose{
+    align-items: center;
+    width: 60%;
+    margin: 3%;
+    text-justify: distribute-all-lines;
+ 
+}
+
+button{
+    
+    background-color: rgba(0, 0, 0, 0.50);
+    border: none;
+    width:120px;
+    height: 40px;
+    font-size: 14px;
+    color: var(--branco);
+    margin-right: 10px;
+    margin-bottom: 10px;
+    font-style: bold;
+
+   
+}
+.botoes{
+    margin:2%;
+}
+button:hover{
+    background-color: rgba(255, 255, 255, 0.5);
+    color: var(--preto);
+    transition: 0.5s ease all;
+}
+
+button .sizeimg{
+    width: 20px;
+    height: 10px;  
+}
+.lista{
+    background:var(--mascara)
+}
+
+.item{
+    height: 100%;
+    width:100%;
+    margin-top: 5px;
+    background:linear-gradient(rgba(0, 0, 0, 0.5),rgba(0, 0, 0, 0.50)100%) ;    
+}
+
+.item:hover{
+    
+    margin-bottom: 20px;
+    transition: 3s ease all;
+    border-radius: 80px;
+    width: 90%;
+    height:90%;
+}
+
+

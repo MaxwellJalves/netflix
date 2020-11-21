@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NetFlix - Clone - Maxwell.costa</title>
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/conf.css">
+    <link rel="stylesheet" href="css/owl/owl.carousel.min.css">
+    <link rel="stylesheet" href="css/owl/owl.theme.default.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Grenze+Gotisch:wght@300&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <header>
+        <div class="cabecalho">
+            <h2 class="logo">NETFLIX</h2>
+            <nav class="menu">
+                <a href="index.html">Inicio</a>
+                <a href="#">Séries</a>
+                <a href="#">Filmes</a>
+                <a href="#">Mais Recentes</a>
+                <a href="#">Minha lista</a>
+                <a href="browse.html"><div class='botao-menu'>Usuario</div></a>
+
+            </nav>
+        </div>
+    </header>
+    <!--Semantica caixa que possui o mesmo peso de uma Div porém utilizamos para estruturar    -->
+    <main>
+        <div class="caixa-principal">
+            <div class="caixa-filha">
+                <div class="vload">
+                    <video width="320" height="240" controls>
+                        <source src="mp4/video.mp4" type="video/mp4">
+                    </video>
+                </div>
+                <h3 class="titulo-cx-filha">Harry Potter</h3>
+                
+                <div class="sipnose">
+
+                    <p>
+                        O confronto entre o bem e o mal espera pelo jovem Harry, que se prepara ao lado de Rony e
+                        Hermione para a batalha final contra Lord Voldemort. Harry se transformou em um garoto de aço em
+                        uma missão para livrar o mundo do mal.
+                        Os amigos devem procurar pelas últimas horcruxes que mantêm o covarde feiticeiro imortal.
+                    </p>  
+                <div class="botoes">
+                    <button role="button" class="b1"><img src="img/play-solid.svg" class='sizeimg' onclick="start()">Play</button>
+                    <button role="button" onclick="video()"><i class="fas fa-info-circle"></i> More Info</button>
+                </div>  
+                </div>
+            </div>
+           
+            <!-- digitando div.nomeClass e pressionando enter o vsCode realiza o auto complite-->
+        </div>
+    </main>
+    <div class="lista">
+        <div class="owl-carousel owl-theme">
+            <div class="item"><img src="img/s1.jpg" alt="imagem I"></img></div>
+            <div class="item"><img src="img/s2.jpg"></img></div>
+            <div class="item"><img src="img/s3.jpg"></img></div>
+            <div class="item"><img src="img/s4.jpg"></img></div>
+            <div class="item"><img src="img/s5.jpg"></img></div>
+            <div class="item"><img src="img/s6.jpg"></img></div>
+            <div class="item"><img src="img/s7.jpg"></img></div>
+            <div class="item"><img src="img/s8.jpg"></img></div>
+ 
+        </div>
+    </div>
+    <footer>
+        <div>
+            <i href="#">Saiba mais</i>
+        </div>
+    </footer>
+    <script src="https://kit.fontawesome.com/2c36e9b7b1.js"></script>
+    <script src="js/owl/jquery.min.js"></script>
+    <script src="js/owl/owl.carousel.min.js"></script>
+    <script src="js/config.js"></script>
+</body>
+
+</html>

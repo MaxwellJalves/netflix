@@ -1,0 +1,87 @@
+:root{
+    --backgroud : black;
+    --text: white;
+}
+*{
+    margin:0px;
+    padding:0px;
+}
+body{
+    display:flex;
+    justify-content: center;
+    margin-bottom: 10px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size:14px;
+    background-color: var(--backgroud);
+    color:var(--text);
+}
+.info{
+    display: flex;
+    font-size: 24px;
+    flex-direction: center;
+    justify-content: center;
+    margin-top: 20%;
+}
+.container-center{
+    margin-top:3%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items:center;
+}
+p{ 
+    font-size:14px ;
+    font-weight: bolder;
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0.5));
+    background-size: cover;
+    border-radius: 10px;
+}
+
+.browser-c1,.browser-c2,.browser-c3,.browser-c4,.browser-c5{
+    display: block;
+    justify-content: unset;
+    border-radius:10px;
+    margin:10px;
+    width: 130px;
+    height:130px;
+    background-color: rgba(20, 104, 231, 0.712);
+}
+
+.browser-c1{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)100%),url("../img/avatar.png");
+}
+.browser-c2{
+    background: linear-gradient(rgba(0,0,0,.4),rgba(0,0,0,.5)100%), url("../img/avatar2.png");
+}
+.browser-c3{
+    background: url("../img/avatar3.png");
+}
+.browser-c4{
+    background: url("../img/avatar5.jpeg");
+}
+.browser-c5{
+    background: url("../img/avatar1.png");
+}
+
+.editar{
+    margin-top:20px;
+    display: flex;
+    justify-content: center;
+}
+
+.gerenciar-perfil{
+    border: 1px solid cornsilk;
+    padding: 5px;
+    color:rgb(165, 165, 165);
+}
+
+
+.browser-c1:hover,.browser-c2:hover,.browser-c3:hover,.browser-c4:hover,.browser-c5:hover {
+    width: 134px;
+    height:134px;
+    transition-duration: 2s;
+    border-radius: 10px;
+    border: 2px solid ghostwhite;
+    background-size: cover;
+    background-repeat: no-repeat;
+}

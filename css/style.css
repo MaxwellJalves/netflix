@@ -1,0 +1,83 @@
+/*
+    Fontes: Cores :https://www.google.com/imgres?imgurl=https%3A%2F%2Fwww.des1gnon.com%2Fwp-content%2Fuploads%2F2014%2F11%2FDes1gnon_Coolors_paletas-de-cores-4.png&imgrefurl=https%3A%2F%2Fwww.des1gnon.com%2F2014%2F11%2Fcoolors-descubra-otimas-paletas-de-cores-com-apenas-um-clique%2F&tbnid=XBTdOE8HsRl-MM&vet=12ahUKEwjZupuil9_sAhVEz1MKHajKCIwQMygAegUIARDKAQ..i&docid=LKEKiWHegCHG1M&w=580&h=401&q=paleta%20de%20cores%20%23&ved=2ahUKEwjZupuil9_sAhVEz1MKHajKCIwQMygAegUIARDKAQ
+*/
+:root{
+    --verde:#8AFF00;
+    --rosa:#FF1493;
+    --roxo:#42124C;
+}
+
+body{
+    
+    position: relative; 
+    background:black;
+    align-items:center;
+    color:white;
+    font-family: monospace;
+    font-size: 14px;
+
+}
+
+p,a,li,ol,ul{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color:white;
+    text-decoration:none;
+}
+
+header .logo-top{
+    
+    margin: 20px;
+    text-align: center;
+
+}
+h1{
+    
+    width:100%;
+    height:80%;
+    float: left;
+    text-align:center;
+    margin: 2% 0;
+    font-weight:100;
+    font-size:850%;
+}
+h2{
+    width: 100%;
+    font-weight: 100;
+    float: left;
+    font-size:800%;
+}
+h1::before{
+    color:var(--verde);
+    content:"<$`"
+}
+h1::after{
+    color:var(--verde);
+    content:"`;";
+}
+h2::before{
+    color:var(--roxo);
+    content:"</"
+}
+h2::after{
+    color:var(--rosa);
+    content:">";
+}
+
+section .sessao{
+    display: relative;
+    width: 30%;
+    margin-left: 20px;;
+    height:70%;
+    background-color: royalblue;
+    
+}
+footer :hover{
+    color: red;
+}
+footer{
+  text-align:center;
+  text-decoration:none;
+  text-transform: none;
+  font-size:0.6cm;
+  font-stretch: normal;
+}
